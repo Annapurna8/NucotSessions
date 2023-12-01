@@ -8,9 +8,9 @@ public class Sorting {
 		System.out.println("=====Sorting=====");
 		
 		
-		for(int i=0;i<=a.length;i++)
+		for(int i=0;i<a.length;i++)
 		{
-			for (int j=i+1;j<=a.length;j++)
+			for (int j=i+1;j<a.length;j++)
 			{
 				int temp=0;
 				if(a[i]>a[j])
